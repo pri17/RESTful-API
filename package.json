@@ -1,0 +1,24 @@
+{
+  "name": "tablerestful",
+  "version": "1.0.0",
+  "description": "A restful api for customize tables using NodeJS",
+  "main": ".mongorc.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "author": "gwen zhou",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.14"
+  }
+}
